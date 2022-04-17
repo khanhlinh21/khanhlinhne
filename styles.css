@@ -1,2 +1,116 @@
 body{
-  background-color:pink;}
+	
+	background-image:url(https://khanhlinh.w3spaces.com/anh/carousel-1.jpg?bypass-cache=91754998);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+h1 {
+  
+  color: brown;
+  font-family: verdana;
+  font-size: 250%;
+
+
+}
+h2{
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: 100% 100%;
+	border: 2px solid blue;
+	padding:30px;
+	margin:30px;
+	
+}
+p {
+  
+  color: brown;
+  font-family: monaco;
+  font-size: 100%;
+  
+
+}
+h4{
+	font-size:200%;
+	color:tan;
+}
+div{
+	color: green;
+	font-family: Times new roman;
+	font-size: 160%;
+}
+span{
+	color:blue;
+	font-weight: bold;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+img{
+	width:400;
+	height:379;
+}
+
+ table {
+  border:5px double black;
+  border-collapse: collapse;
+  font-size: 30px;
+  
+}
+th, td {
+	border:1px solid black  ;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 13px;
+	padding-right: 13px;
+
+}
+th {
+  background-color: tomato ;
+}
+/*tr:nth-child(even) {
+  background-color: DarkSalmon ;
+}*/
+h3 { 
+  font-size: 200%;
+}
+ol{
+	font-size: 200%;
+	color:red;
+	
+}
+ul{
+	font-size: 200%;
+	list-style-type: square;
+}
+tr:nth-child(odd) {
+  background-color:violet;
+}
+
+.city {
+  background-color: saddlebrown;
+  color: tan;
+ font-size: 300%;
+  margin: 20px;
+  padding: 20px;
+}
+.kl {
+  background-color: aqua;
+  text-align:center;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+#id {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
