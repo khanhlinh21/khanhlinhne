@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
 	
 	background-image:url(https://khanhlinh.w3spaces.com/anh/carousel-1.jpg?bypass-cache=91754998);
@@ -84,6 +88,10 @@ th {
 h3 { 
   font-size: 200%;
 }
+h4 { 
+    font-size: 16px;
+}
+
 ol{
 	font-size: 200%;
 	color:red;
@@ -116,4 +124,32 @@ tr:nth-child(odd) {
   color: black;
   padding: 40px;
   text-align: center;
+}
+
+.menu_home {
+    background: #ffffff;
+    padding: 0px 0 32px;
+    position: relative;
+}
+
+.menu_home .container {
+    z-index: 1;
+    position: relative;
+}
+
+.menu_item {
+    margin: 0 15px 40px;
+    min-height: 145px;
+}
+
+.menu_item .menu_item_image {
+    position: relative;
+}
+
+.menu_item .menu_item_info {
+    padding: 12px 0 0;
+}
+
+.menu_item .original_price {
+    color: #EA8025;
 }
